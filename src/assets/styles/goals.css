@@ -1,5 +1,6 @@
 
 .main{
+    font-family: "Roboto", sans-serif;
     text-align: center;
 }
 
@@ -11,6 +12,7 @@
 
 
 .Goal{
+    font-size:20px;
     border-color: #FF7710;
     border-style: solid;
     width: 400px;
@@ -32,7 +34,6 @@
 
 
 .Goals{
-    font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: space-evenly;
 }
