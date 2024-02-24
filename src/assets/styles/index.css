@@ -1,0 +1,39 @@
+.nav{
+    font-family: "Roboto", sans-serif;
+    height:130px;
+    display: flex;
+    justify-content: space-around;
+    background: #FF7710
+}
+
+.nav__list{
+    font-size : 45px;
+    width:700px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;  /*마커 제거*/
+}
+
+.nav__list__menu1{
+    font-weight:700;
+}
+
+.title{
+    width:240px;
+    font-size:50px;
+}
+
+
+.info{
+    padding:200px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.info__list{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size:50px;
+    list-style-type: none;   
+    padding:40px;
+}

@@ -1,0 +1,67 @@
+
+.main{
+    text-align: center;
+}
+
+
+.main__title{
+    font-size:80px;
+    padding:80px;
+}
+
+
+.Goal{
+    border-color: #FF7710;
+    border-style: solid;
+    width: 400px;
+    height: 600px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+.Goal__title{
+    color:white;
+    font-weight:700;
+    background:#FF7710;
+    width:400px;
+    height: 60px;
+    text-align:center;
+    font-size:45px;
+}
+
+
+.Goals{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.nav{
+    font-family: "Roboto", sans-serif;
+    height:130px;
+    display:flex;
+    justify-content:space-around;
+    background: #FF7710
+}
+
+
+.nav__list{
+    font-size:45px;
+    width:700px;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.nav__list__menu3{
+    font-weight:700;
+}
+
+
+.title{
+    width:240px;
+    font-size:50px;
+}
