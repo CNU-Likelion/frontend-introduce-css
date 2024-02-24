@@ -1,0 +1,57 @@
+.nav{
+    font-family: "Roboto", sans-serif;
+    height:130px;
+    display: flex;
+    justify-content: space-around;
+    background: #FF7710
+}
+
+.nav__list{
+    font-size : 45px;
+    width:700px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;  /*마커 제거*/
+}
+
+
+.nav__list__menu2{
+    font-weight:700;
+}
+
+
+.title{
+    width:240px;
+    font-size:50px;
+}
+
+.hobby{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding:200px;
+}
+
+.hobby__first{
+    font-size:20px;
+}
+
+.hobby__second{
+    font-size:20px;
+}
+
+.hobby__title{
+    margin:0px 200px 0px 200px;  /* 상우하좌 */
+    background:#FF7710;
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.hobby__detail{
+    border-color:#FF7710;
+    border-style:solid;
+    width:700px;
+    height:200px;
+    margin:50px;
+}
