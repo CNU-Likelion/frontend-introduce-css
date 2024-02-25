@@ -1,0 +1,29 @@
+/* hobby */
+.hobby {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+figcaption {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+.hobby__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.hobby__image {
+  height: 300px;
+  width: auto;
+}
+.hobby__title {
+  color: #aaa;
+  margin-left: 0%;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.hobby_text {
+  margin-left: 0%;
+}

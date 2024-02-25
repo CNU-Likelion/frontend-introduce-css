@@ -1,0 +1,43 @@
+/* goals */
+.goals {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.goals__list {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.goals__title {
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+}
+
+.goals__item {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  border: solid 1px #FF7710;
+  background-color: #fff;
+}
+
+.goals__item__title {
+  width: 100%;
+  font-size: 18px;
+  height: 50px;
+  margin-bottom: 3px;
+  background-color: #FF7710;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.goals__text {
+  padding: 30px;
+  text-align: center;
+}
