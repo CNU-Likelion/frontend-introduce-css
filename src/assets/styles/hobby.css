@@ -1,0 +1,29 @@
+main {
+  background-color: #faf7f5;
+  padding: 50px 0;
+}
+
+/* profile */
+.hobby {
+  width: 800px;
+  display: flex;
+}
+figcaption {
+  color: #999;
+  font-size: 14px;
+}
+.hobby__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.hobby__image {
+  height: 200px;
+  width: auto;
+}
+.hobby__title {
+  color: #aaa;
+  margin-left: 0%;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
