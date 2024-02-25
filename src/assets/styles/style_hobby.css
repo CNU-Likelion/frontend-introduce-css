@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .sr-only {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    background-color:rgb(249, 116, 7);
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: white;
+    transition: 0.3s
+  }
+
+  li{
+    display: inline;
+  }
+
+  body{
+    -ms-overflow-style: none;
+    }
+    
+   ::-webkit-scrollbar {
+     display: none;
+   }
+
+  nav>div>h1{
+    margin-left: 60px;
+
+    font-size: 35px;
+    color:black;    
+    text-shadow: 1.5px 0 black;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+  }
+
+  nav>div>h3{
+     font-size: 20px;
+  }
+
+  .header--nav--title h1, .header--nav--title h3{
+    display: inline;
+  }
+
+  nav>ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+
+    font-size: 25px;
+  }
+
+  nav>ul>li{
+    margin-right: 60px;
+  }
+
+  /*main*/
+  main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+  }
+
+  main>section>img{
+    width: 220px;
+    margin-bottom: 30px;
+  }
+
+  main>section>p{
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+
