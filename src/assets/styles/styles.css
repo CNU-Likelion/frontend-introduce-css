@@ -18,6 +18,11 @@
   position: absolute;
 } 
 
+main {
+  background-color: #faf7f5;
+  padding: 50px 0;
+}
+
 /* header */
 .header {
   width: 100%;
