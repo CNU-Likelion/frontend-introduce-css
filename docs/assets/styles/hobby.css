@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/* 네비게이션 바 스타일 */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF7710; /* 배경 색상 설정 */
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+
+/* 로고 스타일 */
+.logo {
+    margin-left: 20px; /* 좌측 여백 설정 */
+    height: 40px; /* 로고 크기 조정 */
+}
+
+/* 네비게이션 링크 리스트 스타일 */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+/* 네비게이션 링크 아이템 스타일
+nav ul li {
+    float: left;
+} */
+
+/* 네비게이션 링크 스타일 */
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 현재 페이지 링크 스타일 */
+nav ul li a.active, nav ul li a:hover {
+    font-weight: bold; /* 볼드체 적용 */
+}
+
+/* 링크에 마우스 호버 시 스타일 */
+nav ul li a:hover {
+    background-color:rgba(255, 119, 16, 0.50);
+    color: black;
+}
+
+
+/* 글꼴설정 */
+h1{
+    font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 10px;
+    color: #FF7710;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 10px;
+    color: #FF7710;
+    padding-bottom: 10px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+strong {
+    color: #FF7710;
+}
+
+/* hobby 스타일 */
+
+#hobbies-title{
+    padding: 20px;
+}
+
+.hobbies-section{
+    margin: 50px;
+
+}
+
+.hobbies__wrapper{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 30px;
+}
+
+.hobby__item{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.hobby__image{
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 50%; /* 원형으로 표시 */
+    overflow: hidden; /* 넘치는 부분 숨김 */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    display: flex; /* 이미지를 중앙 정렬하기 위해 flex 사용 */
+} 
+
+.hobby__image img{
+    width: 100%; /* 컨테이너 너비에 맞춤 */
+    height: 100%; /* 컨테이너 높이에 맞춤 */
+    object-fit: cover; /* 이미지 비율을 유지하면서 컨테이너를 가득 채움 */
+    object-position: center; /* 이미지를 중앙에 위치시킴 */
+}
