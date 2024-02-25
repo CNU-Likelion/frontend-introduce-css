@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #faf7f5;
+}
+
 .sr-only {
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
@@ -19,15 +23,25 @@
 } 
 
 main {
-  background-color: #faf7f5;
   padding: 50px 0;
+}
+
+.logo {
+  text-decoration: none;
+  margin-left: 0%;
+}
+.logo__image {
+  height: 30px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* header */
 .header {
   width: 100%;
+  height: 80px;
+  background-color: #FF7710;
   display: flex;
-  border-bottom: 1px solid #eee;
 }
 .header__content {
   width: 1200px;
