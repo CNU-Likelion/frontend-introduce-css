@@ -1,0 +1,41 @@
+     body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* 내용을 수직으로 정렬 */
+            height: 100vh; /* 화면 전체 높이로 설정하여 수직 중앙 정렬 */
+            margin: 0; /* body의 기본 margin 제거 */
+        }
+        header {
+            background-color: orange; /* 상단바 배경색을 회색으로 설정 */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            width: 100%; /* 상단바 너비를 화면 전체로 설정 */
+            position: fixed; /* 페이지를 스크롤해도 상단바가 고정되도록 설정 */
+            top: 0; /* 상단바를 화면 상단에 고정 */
+        }
+        .title {
+            flex-grow: 1;
+        }
+        nav {
+            margin-left: 20px;
+        }
+        .profile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; /* 텍스트 중앙 정렬 */
+            width: 80%; /* 내용의 너비를 설정 */
+            margin-top: 100px; /* 상단바와의 간격 조정 */
+        }
+        .profile-picture img {
+            width: 25%; /* 사진 크기를 4배 줄임 */
+            height: auto; /* 비율 유지 */
+            margin-right: 5px; /* 사진과 내용 사이 여백 */
+        }
+        .profile-details {
+            width: 50%; /* 내용의 너비를 설정 */
+            text-align: left; /* 자기소개 내용을 사진의 우측에 위치 */
+        }
